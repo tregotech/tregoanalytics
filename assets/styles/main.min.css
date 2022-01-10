@@ -771,6 +771,14 @@ select {
   padding-left: 1rem;
 }
 
+.accordion {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 @media (min-width: 375px) {
   .container {
     max-width: 375px;
@@ -31612,6 +31620,12 @@ html {
           filter: none;
 }
 
+.filter-white{
+    filter: brightness(0) invert(1);;
+}
+
+
+
 .blur-0 {
   --tw-blur: blur(0);
 }
@@ -32153,6 +32167,7 @@ html {
   -webkit-transition-duration: 150ms;
           transition-duration: 150ms;
 }
+
 
 .transition-shadow {
   -webkit-transition-property: -webkit-box-shadow;
@@ -157298,6 +157313,7 @@ html {
     -webkit-filter: none;
             filter: none;
   }
+
 
   .lg\:blur-0 {
     --tw-blur: blur(0);
