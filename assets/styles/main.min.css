@@ -31624,6 +31624,9 @@ html {
     filter: brightness(0) invert(1);;
 }
 
+.filter-gray{filter: saturate(0) invert(1) brightness(.5) invert(1);
+}
+
 
 
 .blur-0 {
